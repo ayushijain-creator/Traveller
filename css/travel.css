@@ -55,3 +55,145 @@
 .container-fluid p {
     font-size: 1rem;
 }
+
+<!--login page-->
+
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url('https://images.unsplash.com/photo-1591042344856-adaf4928a71e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+}
+
+.signin{
+      background: rgba(44,62,80,0.7);
+      padding: 40px;
+      width: 350px;
+      margin: auto;
+      margin-top: 80px;
+      height: 450px;
+      margin-left: 180px;
+}
+
+form{
+   
+    text-align: center; 
+}
+
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 15px 0px;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    widows: 190px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type=button]:hover
+{
+    color: #fff;
+    background-color:black;
+}
+h2
+{
+    color: white;
+}
+a {
+    color: cornsilk;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover
+{
+    color: rosybrown;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+::placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.have {
+    color: white
+}
+.congo a 
+{
+    color: yellow;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left: 30px;
+}
+
+.cong{
+    background: rgba(44,62,80,0.7);
+    padding: 50px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 400px;
+}
+
+.cong h2  {
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: cursive;
+}
+
+
+.signup{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width:410px;
+    height:610px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 60px auto;
+}
+.signup h2{
+    color: #fff;
+    
+}
+#lgn button{
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+}
+.acnt{
+    text-decoration: none;
+    font-family:'play',sans-serif;
+    color:white;
+}
+.forget
+{
+ background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width:410px;
+    height:450px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 60px auto;   
+}
